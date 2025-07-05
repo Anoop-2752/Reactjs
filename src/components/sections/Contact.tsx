@@ -18,7 +18,7 @@ const Contact = () => {
     script.async = true;
     script.onload = () => {
       // Initialize EmailJS with your public key
-      (window as any).emailjs.init(process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY);
+      (window as any).emailjs.init(process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY || '');
     };
     document.head.appendChild(script);
 
@@ -35,8 +35,8 @@ const Contact = () => {
     try {
       // Send email using EmailJS
       await (window as any).emailjs.send(
-        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
-        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
+        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID || '',
+        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID || '',
         {
           from_name: formData.name,
           from_email: formData.email,
@@ -142,8 +142,8 @@ const Contact = () => {
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto"></div>
           <p className="mt-6 text-lg text-gray-700 dark:text-gray-300 max-w-2xl mx-auto">
-            I'm always interested in hearing about new opportunities and exciting projects. 
-            Feel free to reach out if you'd like to connect!
+            I&apos;m always interested in hearing about new opportunities and exciting projects. 
+            Feel free to reach out if you&apos;d like to connect!
           </p>
         </div>
 
@@ -304,7 +304,7 @@ const Contact = () => {
               </h3>
               <p className="text-blue-100 mb-4">
                 I typically respond to messages within 24 hours. For urgent matters, 
-                feel free to reach out on LinkedIn or Twitter.
+                feel free to reach out on LinkedIn or X.
               </p>
               <div className="flex items-center">
                 <div className="w-3 h-3 bg-green-400 rounded-full mr-3 animate-pulse"></div>

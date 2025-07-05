@@ -103,12 +103,12 @@ const About = () => {
               </h3>
               <div className="space-y-4 text-gray-700 dark:text-gray-300 leading-relaxed">
                 <p>
-                  I'm a passionate Data Scientist and Machine Learning Engineer with a strong foundation in electronics 
+                  I&apos;m a passionate Data Scientist and Machine Learning Engineer with a strong foundation in electronics 
                   from the University of Calicut. My journey in data science began with a curiosity to understand 
                   patterns and create intelligent solutions.
                 </p>
                 <p>
-                  At DataMites™, I've been instrumental in developing scalable machine learning models that improve 
+                  At DataMites™, I&apos;ve been instrumental in developing scalable machine learning models that improve 
                   predictive accuracy for business applications. My work focuses on creating AI-driven solutions that 
                   bridge theoretical principles with practical business impact.
                 </p>

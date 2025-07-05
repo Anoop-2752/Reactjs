@@ -190,7 +190,7 @@ const Projects = () => {
               Interested in working together?
             </h3>
             <p className="text-blue-100 mb-6">
-              I'm always open to discussing new opportunities and exciting projects.
+              I&apos;m always open to discussing new opportunities and exciting projects.
             </p>
             <a
               href="#contact"
