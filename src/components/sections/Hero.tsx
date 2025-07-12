@@ -50,8 +50,8 @@ const Hero = () => {
             onClick={() => {
               // Create a temporary link element to trigger download
               const link = document.createElement('a');
-              link.href = '/resume.pdf'; // Update this path to your resume file
-              link.download = 'Anoop_Krishna_Resume.pdf'; // Name of the downloaded file
+                    link.href = '/Anoop_resume.pdf'; // Update this path to your resume file
+      link.download = 'Anoop_resume.pdf'; // Name of the downloaded file
               document.body.appendChild(link);
               link.click();
               document.body.removeChild(link);
