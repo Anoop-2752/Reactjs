@@ -45,4 +45,4 @@ jobs:
           NEXT_TYPECHECK_IGNORE_ERRORS: "true"
         run: |
           echo "ESLint + Type errors WILL BE IGNORED"
-          ${{ steps.detect-package-manager.outputs.runner }} next build --no-lint --no-type-check
+          ${{ steps.detect-package-manager.outputs.runner }} next build --no-lint
