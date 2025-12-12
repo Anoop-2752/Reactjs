@@ -23,6 +23,26 @@ const Projects = () => {
       featured: true
     },
     {
+      title: "AI Medical Chatbot",
+      description: "An intelligent AI-powered medical assistant that helps answer general medical queries, provide healthcare information, and assist with symptom guidance.",
+      technologies: ["Python", "Pinecone", "LangChain", "Groq LLaMA 3"],
+      image: "/medical_chatbot.jpg",
+      emoji: "🔍",
+      github: "https://github.com/Anoop-2752/AI-Medical-Chatbot",
+      live: "#",
+      featured: true
+    },
+    {
+      title: "Parking-spot-detection-and-counter",
+      description: "Built a precision object detection model using openCV architecture. The system highlights each parking slot and displays live counters for occupied vs available spaces.",
+      technologies: ["Python", "OpenCV", "Numpy", "TensorFlow", "PyTorch"],
+      image: "/parking.png",
+      emoji: "🔍",
+      github: "https://github.com/Anoop-2752/Parking-spot-detection-and-counter",
+      live: "#",
+      featured: true
+    },
+    {
       title: "RAG-Based PDF QA System",
       description: "A Retrieval-Augmented Generation (RAG) system that allows users to query PDF documents using DeepSeek, Groq API, and FAISS for efficient vector search. This system enhances traditional language models by incorporating document retrieval to provide more accurate, context-aware answers.",
       technologies: ["Python", "DeepSeek", "Groq API", "FAISS", "RAG", "Vector Search"],
