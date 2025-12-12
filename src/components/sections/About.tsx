@@ -127,7 +127,7 @@ const About = () => {
                 <div className="text-sm">Years Experience</div>
               </div>
               <div className="bg-gradient-to-br from-purple-500 to-purple-600 rounded-lg p-6 text-center text-white">
-                <div className="text-3xl font-bold mb-2">20+</div>
+                <div className="text-3xl font-bold mb-2">25+</div>
                 <div className="text-sm">Projects Completed</div>
               </div>
               <div className="bg-gradient-to-br from-green-500 to-green-600 rounded-lg p-6 text-center text-white">
